@@ -1,2 +1,3 @@
 # Python
-Features small Python projects
+This repository features various projects in Python. 
+You can contribute too! :smile:
