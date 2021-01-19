@@ -1,24 +1,15 @@
 # program to generate a madlibs game - 
-
-# to get the words from the user -
-# name = input("Enter noun: ")
-# verb = input("Enter verb: ")
-# grade = input("Enter noun: ")
-# name1 = input("Enter noun: ")
-# food = input("Enter noun: ")
-# verb1 = input("Enter verb: ")
-# adj = input("Enter adjective: ")
-# game = input("Enter noun: ")
-# ani = input("Enter noun: ")
-
+# function which returns noun -
 def ret_noun():
     noun = input("Enter noun: ")
     return noun
 
+# function which returns verb - 
 def ret_verb():
     verb = input("Enter verb: ")
     return verb
 
+# function which returns adjective - 
 def ret_adj():
     adj = input("Enter adjective: ")
     return adj
