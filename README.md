@@ -9,6 +9,8 @@ You can contribute too! :smile:
 
 3. Guess the number - This is a simple one-player game that anyone can implement and play. The computer chooses a random number, which we have to guess in a specific number of guesses.
 
-4. Madlibs - This is also a simple very simple game. The computer/program asks the user to enter specific types of words (like nouns, pronouns etc.). The result is a fun script which you get to read and laugh at! (Console version of the standard Madlibs game!)
+4. Check leap year - This is a simple program which takes user input and checks if the entered year is a leap year or not.
 
-5. Username generator - A fun program which generates fun usernames.
+5. Madlibs - A very simple and funny game. The computer/program asks the user to enter specific types of words (like nouns, pronouns etc.). The result is a fun script which you get to read and laugh at! (Console version of the standard Madlibs game!)
+
+6. Username generator - A fun program which generates fun usernames.
