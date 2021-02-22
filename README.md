@@ -1,3 +1,12 @@
 # Python
 This repository features various projects in Python. 
 You can contribute too! :smile:
+
+## Programs/Projects in this repository -
+1. Simple Calculator - This is a small program which can implement basic mathematical operations (like addition, subtraction, multiplication, division etc.).
+
+2. Guess the number - This is a simple one-player game that anyone can implement and play. The computer chooses a random number, which we have to guess in a specific number of guesses.
+
+3. Madlibs - This is also a simple very simple game. The computer/program asks the user to enter specific types of words (like nouns, pronouns etc.). The result is a fun script which you get to read and laugh at! (Console version of the standard Madlibs game!)
+
+4. Username generator - A fun program which generates fun usernames.
