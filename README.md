@@ -6,7 +6,7 @@ You can contribute too! :smile:
 ## Programs/Projects in this repository -
 1. **Simple Calculator** - This is a small program which can implement basic mathematical operations (like addition, subtraction, multiplication, division etc.).
 
-2. **Dice roll simulator** - This is a simple program which simulates the rolling if a 6-sided die.
+2. **Dice roll simulator** - This program simulates the rolling of a 6-sided die. It shoots out random numbers from 1 to 6.
 
 3. **Guess the number** - This is a simple one-player game that anyone can implement and play. The computer chooses a random number, which we have to guess in a specific number of guesses.
 
