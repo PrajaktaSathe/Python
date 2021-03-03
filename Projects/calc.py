@@ -17,8 +17,11 @@ def calculator():
     elif ch == 4: #division
         num1 = float(input("Dividend --> "))
         num2 = float(input("Divisor  --> "))
-        print(f"{num1} ÷ {num2} = {num1 / num2}")
-    elif ch == 5: #division
+        try:
+          print(f"{num1} ÷ {num2} = {num1 / num2}")
+        except ZeroDivisionError:
+          print(f"{num1} ÷ {num2} = Error: Division by 0!")
+    elif ch == 5: #power
         num = float(input("Number --> "))
         power = float(input("Power --> "))
         print(f"{num} ^ {power} = {num ** power}")
