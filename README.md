@@ -17,3 +17,16 @@ You can contribute too! :smile:
 6. **Contact list** - A program which stores, edits and displays phone numbers for users. I have tried to make it as user-friendly as possible!
 
 7. **Username generator** - A fun program which generates fun usernames.
+
+## Can I contribute?
+Yes! You can definitely contribute here :smile:!
+
+These are some of the things that you can do -
+- If you have a project in Python that is not yet included in the repository, you can open up a PR. You can also open up a PR if you have a better way of coding (code enhancement) any of the projects in the repo!
+- You can open an issue, if you see something like an error, or something buggy!
+- Better documentation is also a great help to any repo! If you are one of those people who like to document stuff, this suggestion is for you!
+
+## What should I keep in mind while contributing?
+- When you are contributing, make sure that the work is entirely your own and not from some other source.
+
+Do :star: the repo if you find it useful! 😇😃😇
