@@ -1,22 +1,47 @@
-ch = int(input("1: Add \n2: Subtract \n3: Multiply \n4: Divide \n5: Square root \nEnter your choice: "))
-if ch == 1:
-    num1 = float(input("Enter number: "))
-    num2 = float(input("Enter number: "))
-    print("Addition: " + str(num1 + num2))
-elif ch == 2:
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    print("Subtraction: " + str(num1 - num2))
-elif ch == 3:
-    num1 = float(input("Enter number: "))
-    num2 = float(input("Enter number: "))
-    print("Multiplication: " + str(num1 * num2))
-elif ch == 4:
-    num1 = float(input("Enter number: "))
-    num2 = float(input("Enter number: "))
-    print("Division: " + str(num1/num2))
-elif ch == 5:
-    num1 = float(input("Enter number: "))
-    print("Square root: " + str(num1**(1/2))) 
-else:
-    print("Invalid input!!")
+def calculator():
+    print("Options:\n\t[1] Add \n\t[2] Subtract \n\t[3] Multiply \n\t[4] Divide \n\t[5] Power \n\t[6] Square root")
+    ch = int(input("\t--> "))
+    
+    if ch == 1: #addition
+        num1 = float(input("1st number --> "))
+        num2 = float(input("2nd number --> "))
+        print(f"{num1} + {num2} = {num1 + num2}")
+    elif ch == 2: #subtraction
+        num1 = float(input("1st number --> "))
+        num2 = float(input("2nd number --> "))
+        print(f"{num1} - {num2} = {num1 - num2}")
+    elif ch == 3: #multiplication
+        num1 = float(input("1st number --> "))
+        num2 = float(input("2nd number --> "))
+        print(f"{num1} x {num2} = {num1 * num2}")
+    elif ch == 4: #division
+        num1 = float(input("Dividend --> "))
+        num2 = float(input("Divisor  --> "))
+        print(f"{num1} ÷ {num2} = {num1 / num2}")
+    elif ch == 5: #division
+        num = float(input("Number --> "))
+        power = float(input("Power --> "))
+        print(f"{num} ^ {power} = {num ** power}")
+    elif ch == 6: #root
+        num = float(input("Number --> "))
+        print(f"√{num} = {num**(1/2)}")
+    else:
+        print("Invalid input!!")
+#====================
+# MAIN PROGRAM
+print("<-- Basic Calculator -->")
+print("Does what it says on the tin!")
+print("-" * 30) #decoration
+
+run = 'Y'
+while run == 'Y':
+  calculator()
+  
+  print("-" * 30)
+  
+  print("Would you like calculate more?\n\t[Y] Yes\n\t[N] No")
+  run = input("\t--> ").upper()
+  while run not in ['Y','YES','N','NO']:
+    run = input("\t--> ").upper()
+  
+  print("-" * 30)
