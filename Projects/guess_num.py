@@ -1,10 +1,18 @@
 # Guessing game - 
+
+# importing random module - 
 import random
+
 print("Welcome to the guess-the-number game!!")
 print("You have 10 chances to begin with!")
+
+# function which implements the game -
 def guess_num():
-    random_num = random.randint(1, 100)
+    # random number from 1 to 100 is stored -
+    random_num = random.randint(1, 100) 
+    # choices variable is set to 10 -
     chances = 10
+    # guess variable is set to 0 -
     guess = 0
     while guess != random_num or chances == 0:
         guess = int(input("Guess a number between 1 and 100: "))
