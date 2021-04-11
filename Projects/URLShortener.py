@@ -1,6 +1,9 @@
 import pyperclip
+# if you don't have pyperclip imported, you can do so by using the command - pip install pyperclip
 import pyshorteners
+# if you don't have pyshortener imported, you can do so by using the command - pip install pyshortener
 from tkinter import*
+# importing tkinter
 
 root=Tk()
 root.geometry("400x200")
