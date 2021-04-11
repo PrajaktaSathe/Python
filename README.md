@@ -18,6 +18,8 @@ You can contribute too! :smile:
 
 7. **Username generator** - A fun program which generates fun usernames.
 
+8. **URL Shortener** - A small program to shorten URLs!
+
 ## Can I contribute?
 Yes! You can definitely contribute here :smile:!
 
