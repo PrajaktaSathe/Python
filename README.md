@@ -1,9 +1,11 @@
 # Python
-This repository features various projects in Python. Do check them out!! 
+
+This repository features various projects in Python. Do check them out!!
 
 You can contribute too! :smile:
 
 ## Programs/Projects in this repository -
+
 1. **Simple Calculator** - This is a small program which can implement basic mathematical operations (like addition, subtraction, multiplication, division etc.).
 
 2. **Dice roll simulator** - This program simulates the rolling of a 6-sided die. It shoots out random numbers from 1 to 6.
@@ -20,15 +22,20 @@ You can contribute too! :smile:
 
 8. **URL Shortener** - A small program to shorten URLs!
 
+9. **Roshambo** - A small program to play Rock Paper Scissors.
+
 ## Can I contribute?
+
 Yes! You can definitely contribute here :smile:!
 
 These are some of the things that you can do -
+
 - If you have a project in Python that is not yet included in the repository, you can open up a PR. You can also open up a PR if you have a better way of coding (code enhancement) any of the projects in the repo!
 - You can open an issue, if you see something like an error, or something buggy!
 - Better documentation is also a great help to any repo! If you are one of those people who like to document stuff, this suggestion is for you!
 
 ## What should I keep in mind while contributing?
+
 - When you are contributing, make sure that the work is entirely your own and not from some other source.
 
 Do :star: the repo if you find it useful! 😇😃😇
