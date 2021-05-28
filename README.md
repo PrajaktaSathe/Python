@@ -37,5 +37,6 @@ These are some of the things that you can do -
 ## What should I keep in mind while contributing?
 
 - When you are contributing, make sure that the work is entirely your own and not from some other source.
+- Make sure you are adding your project in the proper folder.
 
 Do :star: the repo if you find it useful! 😇😃😇
