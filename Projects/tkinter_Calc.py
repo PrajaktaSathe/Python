@@ -1,4 +1,5 @@
 from tkinter import *
+import math
 
 wind = Tk()
 wind.geometry("270x430")
@@ -19,6 +20,7 @@ def calculate():
 def button_clear():
     text.delete(0, END)
 
+    
 frame = Frame(wind)
 frame.pack(side=TOP,anchor=NW)
 
@@ -78,7 +80,8 @@ btndif = Button(rightFrame,text="-", fg='black', bg='#696969',width=6,height=4, 
 btndif.pack()
 btnplus = Button(rightFrame,text="+", fg='black', bg='#696969',width=6,height=4, command=lambda:addToText("+"))
 btnplus.pack()
-
+btnplus = Button(rightFrame,text="%", fg='black', bg='#696969',width=6,height=4, command=lambda:addToText("%"))
+btnplus.pack()
 
 frame5 = Frame(frame)
 frame5.pack()
