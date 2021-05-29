@@ -25,7 +25,7 @@ You can contribute too! :smile:
 9. **Roshambo** - A small program to play Rock Paper Scissors.
 
 10. **Basic Calculator GUI Using Tkinter** - A Basic Calculator Program with GUI.
-![SS](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)  
+[SS](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)  
 
 ## Can I contribute?
 
