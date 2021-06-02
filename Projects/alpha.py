@@ -22,7 +22,7 @@ engine.setProperty('voice', voices[0].id)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-    
+
 # WISH ME
 def wishMe():
     hour = int(datetime.datetime.now().hour)
@@ -63,11 +63,11 @@ def run_alpha():
         print(query)
 
 # SEARCH SOMETHING ON GOOGLE
-        elif 'search on google' in query:
+        if 'search on google' in query:
             speak("What would you like to search on google?")
             cm = takeCommand().lower()
             webbrowser.open(f"{cm}")
-          
+
 # WHATS THE TIME
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
