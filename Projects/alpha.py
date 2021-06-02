@@ -1,13 +1,9 @@
 # MODULES
-import time
-import pyautogui
 import pyttsx3
 import datetime
-import requests
 import speech_recognition as sr
 import webbrowser
 import os
-import pywhatkit
 import random
 from requests import get
 import pyjokes
