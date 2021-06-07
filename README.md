@@ -28,6 +28,14 @@ You can contribute too! :smile:
 
 ![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)  
 
+11. **Virtual Assistant** - A Virtual Assistant build in Python using pyttsx3, speech_recognition and some more, This Assistant can help you with your daily work on Laptop/PC By Providing you to give Talk Command.
+
+![ss](https://github.com/sachinl0har/Python/blob/main/Projects/alphaAi.PNG?raw=true)  
+
+12. **Digital Clock** - A Digital Clock Build using tkinter.
+
+![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_digital_clock.PNG?raw=true)
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
