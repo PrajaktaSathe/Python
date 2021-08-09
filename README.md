@@ -36,6 +36,10 @@ You can contribute too! :smile:
 
 ![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_digital_clock.PNG?raw=true)
 
+13. **RPS Game** - Rock Paper Scissors Game.
+
+14. **Acro Chat** - A Talking AI ChatBot. 
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
