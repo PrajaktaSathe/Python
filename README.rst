@@ -4,6 +4,8 @@ Python
 
 This repository features various projects in Python - do check them out!
 
+Have a look at out `Online Documentation <https://dalekvim.github.io/Python/>`_!
+
 Give us a star if you find this useful!
 
 ************************************
