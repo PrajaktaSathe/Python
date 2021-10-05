@@ -44,6 +44,9 @@ You can contribute too! :smile:
 
 ![Screenshot (2374)](https://user-images.githubusercontent.com/34811605/135977054-54edee7e-f27b-4381-8fcc-d0e500d869b0.png)
 
+16. **Chess game** - This a simple game of chess that uses the concept of socket programming.
+
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
