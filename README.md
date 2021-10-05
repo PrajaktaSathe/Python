@@ -58,5 +58,6 @@ These are some of the things that you can do -
 
 - When you are contributing, make sure that the work is entirely your own and not from some other source.
 - Make sure you are adding your project in the proper folder.
+- Before you open a PR, do update the readme.md of the repository with your project/program details.
 
 Do :star: the repo if you find it useful! 😇😃😇
