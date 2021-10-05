@@ -40,7 +40,7 @@ You can contribute too! :smile:
 
 14. **Acro Chat** - A Talking AI ChatBot. 
 
-15. **Chess game** - This a simple game of chess that uses the concept of socket programming.
+16. **Chess game** - This a simple game of chess that uses the concept of socket programming.
 
 ## Can I contribute?
 
