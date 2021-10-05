@@ -26,6 +26,8 @@ You can contribute too! :smile:
 
 10. **Basic Calculator GUI Using Tkinter** - A Basic Calculator Program with GUI.
 
+11. **Tic Tac Toe** - Tic Tac Toe, the most played entertaining game, is played between two players where they choses one symbol for themselves either '0' or 'X'. Each player gets a chance to fill a 3 by 3 matrix with there symbol turn by turn and the player who successfully fills one whole row or column or diagonal with his/her symbol, wins the game.
+
 ![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)  
 
 11. **Virtual Assistant** - A Virtual Assistant build in Python using pyttsx3, speech_recognition and some more, This Assistant can help you with your daily work on Laptop/PC By Providing you to give Talk Command.
