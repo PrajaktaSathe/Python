@@ -53,6 +53,8 @@ You can contribute too! :smile:
 
 19. **quiz game** - This quiz game will be asking questions to the player to which player has to reply with the right answer. Each question will have 3 attempts. At the end of the game, the total points scored by the player are displayed.
 
+20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
