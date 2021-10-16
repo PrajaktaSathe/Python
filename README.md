@@ -51,7 +51,10 @@ You can contribute too! :smile:
 
 18. **Days Alive** - This is a simple program that takes input from users - Date of Birth, and using the data and using the datetime function is able to return the number of days the users has spent on the planet. The inputs for the date of birth given in yyyy-mm-dd format.
 
-19. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
+19. **quiz game** - This quiz game will be asking questions to the player to which player has to reply with the right answer. Each question will have 3 attempts. At the end of the game, the total points scored by the player are displayed.
+
+20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
