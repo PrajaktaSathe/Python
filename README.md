@@ -74,3 +74,8 @@ These are some of the things that you can do -
 - Before you open a PR, do update the readme.md of the repository with your project/program details.
 
 Do :star: the repo if you find it useful! 😇😃😇
+
+
+## What if I am new to Python?
+Check out my Youtube video tutorials [here](https://www.youtube.com/channel/UCUCbyP0evXOnZ4vxFEnVn9w)!
+You'll get a thorough understanding of the basics of Python!
