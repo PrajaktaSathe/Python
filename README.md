@@ -55,6 +55,8 @@ You can contribute too! :smile:
 
 20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
 
+21. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
