@@ -55,6 +55,8 @@ You can contribute too! :smile:
 
 20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
 
+21. **Random Option Chooser - A simple project that gets some different options from the user and gives back a randomly chosen one to the user.**  
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
