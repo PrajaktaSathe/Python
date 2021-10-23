@@ -55,7 +55,9 @@ You can contribute too! :smile:
 
 20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
 
-21. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
+21. **Random Option Chooser - A simple project that gets some different options from the user and gives back a randomly chosen one to the user.**  
+
+22. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
 
 ## Can I contribute?
 
