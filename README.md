@@ -59,6 +59,9 @@ You can contribute too! :smile:
 
 22. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
 
+23. **Music Player** - A simple music player to enjoy during your leisure. <br>
+![image](https://github.com/nhimanshujain/Python/blob/main/Projects/Music%20Player/music_player.png)
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
