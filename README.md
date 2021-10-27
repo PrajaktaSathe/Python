@@ -62,6 +62,8 @@ You can contribute too! :smile:
 23. **Music Player** - A simple music player to enjoy during your leisure. <br>
 ![image](https://github.com/nhimanshujain/Python/blob/main/Projects/Music%20Player/music_player.png)
 
+24. **Roulette Game** - This program simulates a game of roulette. In roulette, a wheel spins and yields a number between 1 and 49 when a ball drops into a numbered slot. The initial amount is monitored throughout the game and will be reminded to the player after each guess. If the amount goes zero, then the game ends.
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
