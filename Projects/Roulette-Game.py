@@ -25,3 +25,4 @@ while totalAmount > 0:
         
 if totalAmount==0:
     print("Sorry but you don't have enough money to continue !\nThe game is now ending !")
+    
