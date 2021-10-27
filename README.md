@@ -44,16 +44,32 @@ You can contribute too! :smile:
 
 ![Screenshot (2374)](https://user-images.githubusercontent.com/34811605/135977054-54edee7e-f27b-4381-8fcc-d0e500d869b0.png)
 
+
 16. **Chess game** - This a simple game of chess that uses the concept of socket programming.
 
 17. **job Scraping** - A Job scraping program that uses beautifulsoup library.
 ![image](https://user-images.githubusercontent.com/54464202/136100104-490ffa4e-1bfb-4b85-9d61-ac01f54ab5f5.png)
 
-18. **Youtube Video Downloader using Pytube** - A simple Python Script to download Youtube Videos from Youtube using Pytube
+18. **Days Alive** - This is a simple program that takes input from users - Date of Birth, and using the data and using the datetime function is able to return the number of days the users has spent on the planet. The inputs for the date of birth given in yyyy-mm-dd format.
+
+19. **quiz game** - This quiz game will be asking questions to the player to which player has to reply with the right answer. Each question will have 3 attempts. At the end of the game, the total points scored by the player are displayed.
+
+20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
+
+21. **Random Option Chooser - A simple project that gets some different options from the user and gives back a randomly chosen one to the user.**  
+
+22. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
+
+23. **Music Player** - A simple music player to enjoy during your leisure. <br>
+![image](https://github.com/nhimanshujain/Python/blob/main/Projects/Music%20Player/music_player.png)
+
+24.**Billing System** - Simple billing system that will be helpful for any shop. User can generate the bill and save the data. <br>
+![Bill](https://user-images.githubusercontent.com/72568715/138883560-17dd82b2-e55f-4b4f-b4f4-817d3d0c16ac.PNG)
+
+25. **Roulette Game** - This program simulates a game of roulette. In roulette, a wheel spins and yields a number between 1 and 49 when a ball drops into a numbered slot. The initial amount is monitored throughout the game and will be reminded to the player after each guess. If the amount goes zero, then the game ends.
+
+26. **Youtube Video Downloader using Pytube** - This script downloads your favouraite Youtube Video using Pytube
 ![ss](https://github.com/BAKCHODGUNDA/Python/blob/main/Projects/YoutubeVideoDownloader.png)
-
-
-
 
 ## Can I contribute?
 
@@ -72,3 +88,8 @@ These are some of the things that you can do -
 - Before you open a PR, do update the readme.md of the repository with your project/program details.
 
 Do :star: the repo if you find it useful! 😇😃😇
+
+
+## What if I am new to Python?
+Check out my Youtube video tutorials [here](https://www.youtube.com/channel/UCUCbyP0evXOnZ4vxFEnVn9w)!
+You'll get a thorough understanding of the basics of Python!
