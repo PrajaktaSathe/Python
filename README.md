@@ -62,6 +62,10 @@ You can contribute too! :smile:
 23. **Music Player** - A simple music player to enjoy during your leisure. <br>
 ![image](https://github.com/nhimanshujain/Python/blob/main/Projects/Music%20Player/music_player.png)
 
+24.**Billing System** - Simple billing system that will be helpful for any shop. User can generate the bill and save the data.
+![Bill](https://user-images.githubusercontent.com/72568715/138883560-17dd82b2-e55f-4b4f-b4f4-817d3d0c16ac.PNG)
+
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
