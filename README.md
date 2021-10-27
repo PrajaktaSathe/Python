@@ -62,9 +62,10 @@ You can contribute too! :smile:
 23. **Music Player** - A simple music player to enjoy during your leisure. <br>
 ![image](https://github.com/nhimanshujain/Python/blob/main/Projects/Music%20Player/music_player.png)
 
-24.**Billing System** - Simple billing system that will be helpful for any shop. User can generate the bill and save the data.
+24.**Billing System** - Simple billing system that will be helpful for any shop. User can generate the bill and save the data. <br>
 ![Bill](https://user-images.githubusercontent.com/72568715/138883560-17dd82b2-e55f-4b4f-b4f4-817d3d0c16ac.PNG)
 
+25. **Roulette Game** - This program simulates a game of roulette. In roulette, a wheel spins and yields a number between 1 and 49 when a ball drops into a numbered slot. The initial amount is monitored throughout the game and will be reminded to the player after each guess. If the amount goes zero, then the game ends.
 
 ## Can I contribute?
 
