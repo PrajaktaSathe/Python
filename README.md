@@ -71,6 +71,10 @@ You can contribute too! :smile:
 26. **Youtube Video Downloader using Pytube** - This script downloads your favouraite Youtube Video using Pytube
 ![ss](https://github.com/BAKCHODGUNDA/Python/blob/main/Projects/YoutubeVideoDownloader.png)
 
+27. **QR code generator** - QR code generator developed using pyqrcode module for automating the process of creating QR codes.You can enter any text or link to the program and it will attempt to follow and generate the QR code standard as closely as possible.
+![qr_code](https://user-images.githubusercontent.com/58761340/139771910-d3af4ee7-7d74-49a3-a1ed-70d6058d3d78.png)
+
+
 ## Can I contribute?
 
 Yes! You can definitely contribute here :smile:!
