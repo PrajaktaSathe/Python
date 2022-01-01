@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House Price Predictor</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="{{ url_for('static', path='images/icon.svg') }}" rel="icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{
+        url_for('static', path='css/style.css') }}"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h3>House Price Predictor</h3>
+      <p>
+        A Machine Learning Web App, Built with FastAPI, Deployed using Heroku.
+      </p>
+      <div id="form-container">
+        <div id="form-wrapper">
+          <form action="/predict" method="post">
+            <div class="flex: 6">
+              <input
+                id="income"
+                name="income"
+                class="form-control"
+                type="number"
+                min="52000"
+                max="110000"
+                placeholder="Average Income (52000 - 110000)"
+                required
+              />
+              <input
+                id="house"
+                name="house"
+                class="form-control"
+                type="number"
+                min="3.2"
+                max="9.5"
+                step="0.1"
+                placeholder="House Age (3.2 - 9.5)"
+                required
+              />
+              <input
+                id="rooms"
+                name="rooms"
+                class="form-control"
+                type="number"
+                min="5"
+                max="10"
+                step="1"
+                placeholder="Total number of Rooms (5 - 10)"
+                required
+              />
+              <input
+                id="bedrooms"
+                name="bedrooms"
+                class="form-control"
+                type="number"
+                min="2"
+                max="6"
+                step="1"
+                placeholder="Total number of Bedrooms (2 - 6)"
+                required
+              />
+              <input
+                id="population"
+                name="population"
+                class="form-control"
+                type="number"
+                min="30000"
+                max="75000"
+                placeholder="Area Population (30000 - 75000)"
+                required
+              />
+              <input id="submit" class="btn" type="submit" value="Predict" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <br />
+      <p>Predicted Price is : {{prediction}} U$D Only.</p>
+    </div>
+  </body>
+</html>
