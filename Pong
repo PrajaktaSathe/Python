@@ -1,0 +1,155 @@
+import turtle as Turtle
+
+
+Player1_Score = 0
+Player2_Score = 0
+
+
+window = Turtle.Screen()
+window.title("Ponggo Game!")
+window.bgcolor("green")
+window.setup(width=800,height=600)
+window.tracer(0)
+
+
+
+#creating left paddle
+leftblock=Turtle.Turtle()
+leftblock.speed(0)
+leftblock.shape("square")
+leftblock.color("white")
+leftblock.shapesize(stretch_wid=5,stretch_len=1)
+leftblock.penup()
+leftblock.goto(-350,0)
+
+#creating right paddle
+rightblock=Turtle.Turtle()
+rightblock.speed(0)
+rightblock.shape("square")
+rightblock.color("white")
+rightblock.shapesize(stretch_wid=5,stretch_len=1)
+rightblock.penup()
+rightblock.goto(+350,0)
+
+#creating the ball
+
+ball = Turtle.Turtle()
+ball.speed(0)
+ball.shape("circle")
+ball.color("red")
+ball.penup()
+ball.goto(5,5)
+ballxdirection=0.2
+ballydirection=0.2
+
+#creating pen for score
+
+pen =Turtle.Turtle()
+pen.speed(0)
+pen.color("white")
+pen.penup()
+pen.hideturtle()
+pen.goto(0,260)
+pen.write("score",align="center",font=('Arial',24,'normal'))
+
+#moving leftblock
+
+def leftblockup():
+    y = leftblock.ycor()
+    y = y +90
+    leftblock.sety(y)
+    if y == 360:
+        y = y -90
+        leftblock.sety(y)
+
+def leftblockdown():
+    y = leftblock.ycor()
+    y = y - 90
+    leftblock.sety(y)
+    if y == -360:
+        y = y+90
+        leftblock.sety(y)
+
+
+
+#moving rightblock
+
+def rightblockup():
+    y = rightblock.ycor()
+    y = y +90
+    rightblock.sety(y)
+    if y == 360:
+        y = y -90
+        rightblock.sety(y)
+
+def rightblockdown():
+    y = rightblock.ycor()
+    y = y - 90
+    rightblock.sety(y)
+    if y == -360:
+        y = y+90
+        rightblock.sety(y)
+
+def Victorypage_player1():
+    Turtle.textinput("Congratulations !", "Player 1 You Won! Did you Enjoy the game?")
+    Turtle.resetscreen
+
+def Victorypage_player2():
+    Turtle.textinput("Congratulations !", "Player 2 You Won! Did you Enjoy the game?")
+    Turtle.resetscreen
+
+#assigns keys to play
+
+window.listen()
+window.onkeypress(leftblockup,'w')
+window.onkeypress(leftblockdown,'s')
+window.onkeypress(rightblockup,'Up')
+window.onkeypress(rightblockdown,'Down')
+
+while True:
+    window.update()
+
+    #moving motion
+    ball.setx(ball.xcor()+ballxdirection)
+    ball.sety(ball.ycor()+ballydirection)
+
+    #settingup border
+    if ball.ycor()>290:
+        ball.sety(290)
+        ballydirection=ballydirection*-1
+    if ball.ycor()<-290:
+        ball.sety(-290)
+        ballydirection=ballydirection*-1
+
+    #if the ball passes the block (>390 or <-390)
+    if ball.xcor()>390:
+        ball.goto(0,0)
+        ballxdirection=ballxdirection
+        Player1_Score+=1
+        pen.clear()
+        pen.write("Player 1:  {}        Player2:  {}".format(Player1_Score,Player2_Score),align='center',font=('Arial',24,'normal'))
+
+    if ball.xcor()<-390:
+        ball.goto(0,0)
+        ballxdirection=ballxdirection
+        Player2_Score+=1
+        pen.clear()
+        pen.write("Player 1:  {}        Player2:  {}".format(Player1_Score,Player2_Score),align='center',font=('Arial',24,'normal'))
+
+    #Handling Collisions
+
+    if (ball.xcor()>340)and(ball.xcor()<350)and(ball.ycor()<rightblock.ycor()+40 and ball.ycor()>rightblock.ycor()-40):
+        ball.setx(340)
+        ballxdirection=ballxdirection*-1
+
+    if (ball.xcor()<-340)and(ball.xcor()>-350)and(ball.ycor()<leftblock.ycor()+40 and ball.ycor()>leftblock.ycor()-40):
+        ball.setx(-340)
+        ballxdirection=ballxdirection*-1
+
+    if Player1_Score == 10:
+        Victorypage_player1()
+        break
+
+    if Player2_Score == 10:
+        Victorypage_player2()
+        break
