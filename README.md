@@ -98,6 +98,20 @@ Do :star: the repo if you find it useful! 😇😃😇
 Check out my Youtube video tutorials [here](https://www.youtube.com/channel/UCUCbyP0evXOnZ4vxFEnVn9w)!
 You'll get a thorough understanding of the basics of Python!
 
+You may want to check out the Python official webpage for the documention [here](https://docs.python.org/3/tutorial/).
+A few more resources for new Python users are [w3schools](https://www.w3schools.com/python/) and [tutorialspoint](https://www.tutorialspoint.com/python/index.htm) for their basic guide and lessons on python!
+
+## How do I contribute if I am a beginner?
+It's okay to be a beginner and want to contribute! Here are other resources to use to learn more about Open Source contribution for beginners:
+
+This [article](https://docs.github.com/en/get-started/quickstart/set-up-git) from github explains how to create a repository, forking a repository, managing files, contributing to projects, and more!
+
+This article from github explains Git and its usages. In addition, it shows some of its capabilities and functionalities, as well as commonly used Git commands to work with can be found [here](https://education.github.com/git-cheat-sheet-education.pdf).
+
+This [article](https://css-tricks.com/how-to-contribute-to-an-open-source-project/#article-header-id-8) explains the basic of contributing to an open source project, including looking through documentation for contribution guide, checking for existing issues and Pull Requests or creating new ones, and other helpful tips when considering to contribute to a project:
+
+Here is a helpful video explaining some basic steps to contributing to an open source project on github: [here](https://www.youtube.com/watch?v=c6b6B9oN4Vg)
+
 ## Contributors
 <a href="https://github.com/PrajaktaSathe/Python/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PrajaktaSathe/Python" />
