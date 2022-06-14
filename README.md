@@ -26,11 +26,11 @@ You can contribute too! :smile:
 
 10. **Basic Calculator GUI Using Tkinter** - A Basic Calculator Program with GUI.
 
-![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)  
+![ss](https://github.com/sachinl0har/Python/blob/main/Projects/tkinter_calc.PNG?raw=true)
 
 11. **Virtual Assistant** - A Virtual Assistant build in Python using pyttsx3, speech_recognition and some more, This Assistant can help you with your daily work on Laptop/PC By Providing you to give Talk Command.
 
-![ss](https://github.com/sachinl0har/Python/blob/main/Projects/alphaAi.PNG?raw=true)  
+![ss](https://github.com/sachinl0har/Python/blob/main/Projects/alphaAi.PNG?raw=true)
 
 12. **Digital Clock** - A Digital Clock Build using tkinter.
 
@@ -38,7 +38,7 @@ You can contribute too! :smile:
 
 13. **RPS Game** - Rock Paper Scissors Game.
 
-14. **Acro Chat** - A Talking AI ChatBot. 
+14. **Acro Chat** - A Talking AI ChatBot.
 
 15. **Tic Tac Toe** - Tic Tac Toe, the most played entertaining game, is played between two players where they choses one symbol for themselves either '0' or 'X'. Each player gets a chance to fill a 3 by 3 matrix with there symbol turn by turn and the player who successfully fills one whole row or column or diagonal with his/her symbol, wins the game.
 
@@ -56,7 +56,7 @@ You can contribute too! :smile:
 
 20. **DSA Telegram Bot** - A project in Python which helps in DSA preparation by helping with resources for practice and studying concepts.
 
-21. **Random Option Chooser - A simple project that gets some different options from the user and gives back a randomly chosen one to the user.**  
+21. **Random Option Chooser - A simple project that gets some different options from the user and gives back a randomly chosen one to the user.**
 
 22. **HANGMAN** - In this fun game, user have to guess the movie name by suggesting letters within a certain number of guesses.
 
@@ -73,6 +73,9 @@ You can contribute too! :smile:
 
 27. **QR code generator** - QR code generator developed using pyqrcode module for automating the process of creating QR codes.You can enter any text or link to the program and it will attempt to follow and generate the QR code standard as closely as possible.
 ![qr_code](https://user-images.githubusercontent.com/58761340/139771910-d3af4ee7-7d74-49a3-a1ed-70d6058d3d78.png)
+
+28.  **Language Translator** - Language Translator is used to detect and translate between languages created using gTTS (google text to speech), googletrans, and streamlit python packages.
+![translator](Projects/Language%20Translator/images/trans.png)
 
 
 ## Can I contribute?
