@@ -14,14 +14,12 @@ matplotlib                3.5.1
 numpy                     1.19.5
 opencv-python             4.4.0.42 
 tensorflow                2.6.0 
-
+```
 ## Installation
 
 First, clone the repository:
 ```
 git clone -b deep_sort_yolov4 https://github.com/nwojke/deep_sort.git
-```
-
 ```
 
 ## Testing
@@ -38,10 +36,9 @@ The dependency functions are been declared in the ./core/dependencies.py and ./c
 
 We assume resources have been extracted to the repository root directory.
 ```
-python deep_track.py 
-
+python deep_track.py
 ```
-Check `python deep_track.py -h` for an overview of available options.
+Check `python deep_track.py` for an overview of available options.
 There are also scripts in the repository to visualize results, generate videos,
 and evaluate the MOT challenge benchmark.
 
