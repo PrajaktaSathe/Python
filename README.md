@@ -77,7 +77,9 @@ You can contribute too! :smile:
 28.  **Language Translator** - Language Translator is used to detect and translate between languages created using gTTS (google text to speech), googletrans, and streamlit python packages.
 ![translator](Projects/Language%20Translator/images/trans.png)
 
-28.  **Space Shooter Game** -  A simple and fun space shooter game.
+29.  **Space Shooter Game** -  A simple and fun space shooter game.
+
+30. **Stopwatch** - A simple stopwatch which makes use of multithreading to display a count up timer whilst the stopwatch runs.
 
 
 ## Can I contribute?
