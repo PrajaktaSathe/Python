@@ -80,6 +80,9 @@ You can contribute too! :smile:
 
 30. **Stopwatch** - A simple stopwatch which makes use of multithreading to display a count up timer whilst the stopwatch runs.
 
+31. **RiddleMe!** - A simple app which challenges the players with multiple riddles which are to be solved in maximum of 3 chances. The players are awarded a score accordingly.
+![image](https://user-images.githubusercontent.com/77487252/193447183-0c579d36-a430-4c23-b629-df1bc6b2ff92.png)
+
 
 ## Can I contribute?
 
