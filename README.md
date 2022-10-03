@@ -83,6 +83,9 @@ You can contribute too! :smile:
 31. **RiddleMe!** - A simple app which challenges the players with multiple riddles which are to be solved in maximum of 3 chances. The players are awarded a score accordingly.
 ![image](https://user-images.githubusercontent.com/77487252/193447183-0c579d36-a430-4c23-b629-df1bc6b2ff92.png)
 
+32. **EDA by Pandas** - By using this you will be able to analyse your data well
+![ss](https://github.com/Sj0605-DataSci/screeenshots/blob/main/Screenshot%202022-10-04%20at%201.33.49%20AM.png)
+
 
 ## Can I contribute?
 
