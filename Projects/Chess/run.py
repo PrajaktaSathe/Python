@@ -1,4 +1,4 @@
-import game
+import Projects.game as game
 
 if __name__ == "__main__":
     g = game.Game(500,500)
