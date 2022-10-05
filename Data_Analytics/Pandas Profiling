@@ -1,0 +1,7 @@
+!pip install pandas_profiling==2.9.0
+from pandas_profiling import ProfileReport
+import pandas as pd
+import seaborn as sns
+df = sns.load_dataset('iris')
+prof = ProfileReport(df)
+prof.to_widget()
