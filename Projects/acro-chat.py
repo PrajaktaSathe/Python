@@ -5,7 +5,6 @@ import requests
 import speech_recognition as sr
 from requests import get
 
-
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 #print(voices[0].id)
@@ -22,19 +21,22 @@ engine.setProperty('voice', voices[1].id)
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
+
+
 # WISH ME
 def wishMe():
     hour = int(datetime.datetime.now().hour)
-    if hour>=0 and hour<12:
+    if hour >= 0 and hour < 12:
         speak("Good Morning Sir!")
 
-    elif hour>=12 and hour<18:
-      speak("Good Afternoon Sir!")
+    elif hour >= 12 and hour < 18:
+        speak("Good Afternoon Sir!")
 
     else:
         speak("Good Evening Sir!")
 
     speak("Acro Here,How may i help you?")
+
 
 def takeCommand():
     #It takes microphone input from the user and returns string output
@@ -46,25 +48,29 @@ def takeCommand():
         audio = r.listen(source)
 
     try:
-        print("Recognizing...")    
+        print("Recognizing...")
         query = r.recognize_google(audio, language='en-in')
         print(f"User said: {query}\n")
 
     except Exception as e:
-        # print(e)    
-        print("Say that again please...")  
+        # print(e)
+        print("Say that again please...")
         return "None"
     return query
 
+
 wishMe()
 
+
 def run_alpha():
-        inpu = takeCommand()
-        print(inpu)
-        url = "http://api.brainshop.ai/get?bid=157984&key=3S0hhLXZ5GS2KYs4&uid=[uid]&msg=[{}]".format(inpu)
-        response = requests.get(url).json()['cnt']
-        print(response)
-        speak(response)
+    inpu = takeCommand()
+    print(inpu)
+    url = "http://api.brainshop.ai/get?bid=157984&key=3S0hhLXZ5GS2KYs4&uid=[uid]&msg=[{}]".format(
+        inpu)
+    response = requests.get(url).json()['cnt']
+    print(response)
+    speak(response)
+
 
 while True:
     run_alpha()

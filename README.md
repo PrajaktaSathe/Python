@@ -86,6 +86,9 @@ You can contribute too! :smile:
 32. **EDA by Pandas** - By using this you will be able to analyse your data well
 ![ss](https://github.com/Sj0605-DataSci/screeenshots/blob/main/Screenshot%202022-10-04%20at%201.33.49%20AM.png)
 
+33. **Face Recognition Program** - A simple face recognition program
+![ss](https://github.com/Sj0605-DataSci/screeenshots/blob/main/Screenshot%202022-10-04%20at%201.18.15%20AM.png)
+
 
 ## Can I contribute?
 

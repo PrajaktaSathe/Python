@@ -8,6 +8,4 @@ data = input("Enter the text or link to generate QR code: ")
 qr = pyqrcode.create(data)
 
 # qr code is not diectly visible,exporting it into a file,keeping scale parameter 8
-qr.svg('qr_code.svg', scale = 8)
-
-
+qr.svg('qr_code.svg', scale=8)

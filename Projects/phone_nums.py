@@ -1,5 +1,6 @@
 # create an empty dictionary -
-phone_nums_dict = {} 
+phone_nums_dict = {}
+
 
 # function to add/update number to the list(dictionary) -
 def add_num(name, num):
@@ -11,21 +12,26 @@ def add_num(name, num):
     else:
         print("You have entered the number incorrectly!")
 
+
 # function to search for a number using a specific name -
 def search(name):
     if (name in phone_nums_dict):
         print(phone_nums_dict[name])
     else:
         print("Name and number not found!")
-    
+
+
 # function to display the dictionary -
 def display_list():
     print(phone_nums_dict)
 
 
 choice = 1
-while(choice == 1):
-    user_input_choice = int(input("Enter 1 to add/update number, 2 to search for a number, 3 to display list: "))
+while (choice == 1):
+    user_input_choice = int(
+        input(
+            "Enter 1 to add/update number, 2 to search for a number, 3 to display list: "
+        ))
     if (user_input_choice == 1):
         user_input_name = input("Enter name: ").capitalize()
         user_input_num = input("Enter number: ")
