@@ -89,6 +89,8 @@ You can contribute too! :smile:
 33. **Face Recognition Program** - A simple face recognition program
 ![ss](https://github.com/Sj0605-DataSci/screeenshots/blob/main/Screenshot%202022-10-04%20at%201.18.15%20AM.png)
 
+34. **Expense Tracker** - Application to help users track their expenses. Users can input their daily expenses, categorize them, and view monthly/yearly summaries.
+
 
 ## Can I contribute?
 
